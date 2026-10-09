@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">TRAVEL✈️</a>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+        <ul>
+          <li><a href="index.html" class="link">Home</a></li>
+          <li><a href="about.html" class="link">About Us</a></li>
+          <li><a href="contact.html" class="link" aria-current="page">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact" id="contact">
+        <div class="contact-top">
+          <div class="contact-details">
+            <div class="info-item">
+              <h2>Location</h2>
+              <p>MP Nagar, Bhopal</p>
+            </div>
+
+            <div class="info-item">
+              <h2>Email</h2>
+              <p>
+                <a href="mailto:hello@mytravelsite.com"
+                  >hello@mytravelsite.com</a
+                >
+              </p>
+            </div>
+
+            <div class="info-item">
+              <h2>Call</h2>
+              <p><a href="tel:+910000000000">+91 00000 00000</a></p>
+            </div>
+          </div>
+          <img src="img/company.jpg" alt="Our travel team at work" />
+        </div>
+
+        <div class="contact-form-wrap">
+          <h2>Contact Us</h2>
+          <p class="contact-intro">
+            Planning a trip? Tell us where you want to go. Let us know your
+            suggestions and concerns by filling out the contact form below.
+          </p>
+
+          <form action="#" method="post">
+            <div class="form-section">
+              <label for="name"> Your Name: </label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-section">
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-section">
+              <label for="phone">Your Phone Number: </label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+
+            <div class="form-section">
+              <label for="destination">Destination:</label>
+              <select id="destination" name="destination">
+                <option value="">Choose a destination</option>
+                <option value="paris">Paris, France</option>
+                <option value="egypt">Desert, Egypt</option>
+                <option value="india">Taj Mahal, India</option>
+                <option value="usa">New York, USA</option>
+              </select>
+            </div>
+
+            <div class="form-section">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+
+            <div class="form-section">
+              <label
+                ><input type="checkbox" name="newsletter" /> Send me travel
+                deals</label
+              >
+            </div>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <a
+        href="https://www.instagram.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Follow us on Instagram</a
+      >
+      <p>&copy; 2026 My Travel Site. All rights reserved.</p>
+    </footer>
+     <script src="script.js"></script>
+  </body>
+</html>
